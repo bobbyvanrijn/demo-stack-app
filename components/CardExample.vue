@@ -13,9 +13,9 @@
             <h3>Card title</h3>
             <p>Card description</p>
 
-            <Stack direction="row" spacing="sm">
-                <Button>Primary</Button>
-                <Button variant="secondary">Secondary</Button>
+            <Stack direction="horizontal" spacing="sm">
+                <button>Primary</button>
+                <button variant="secondary">Secondary</button>
             </Stack>
         </Stack>
     </Stack>
