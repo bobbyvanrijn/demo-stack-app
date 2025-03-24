@@ -316,7 +316,7 @@ const stackClasses = computed(() => {
         classes.push('stack--full-height');
     }
     
-    return classes.join(' ');
+    return classes;
 });
 
 const stackStyles = computed(() => {
